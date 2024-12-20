@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+        <text name="manufacturerName" extra="static">
+        <pos>0.029 0.450</pos>
+        <alignment>right</alignment>
+      </text>
+      <text name="fullName" extra="true">
+        <pos>0.03 0.540</pos>
+        <alignment>right</alignment>
+      </text>
+      <text name="releaseYyear" extra="true">
+        <pos>0.03 0.590</pos>
+        <alignment>right</alignment>
+      </text>
+	  	  <image name="char2" extra="true">
+		<pos>0.010 0.650</pos>
+		<maxSize>0.30 0.20</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+			<animation property="y" from="0.40" begin="0" duration="00" mode="easeOut"/>
+			<animation property="scale" from="0.8" to="0.9" begin="100" duration="900" mode="EaseInQuint" autoreverse="true" repeat="forever"/>
+                <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard> 
+		<path>./../../art/controllers/${system.theme}.svg</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	  
+	  	  <image name="char" extra="true">
+		<pos>0.600 0.640</pos>
+		<maxSize>0.30 0.30</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./../../art/char/char.m3u</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	  
+	  
+    <carousel name="systemcarousel">
+      <color>FAFAFF00</color>
+      <colorEnd>FAFAFF00</colorEnd>
+      <systemInfoDelay>700</systemInfoDelay>
+      <size>1 0.2325</size>
+      <zIndex>20</zIndex>
+      <pos>0.01 0.75</pos>
+      <size>1 0.3925</size>
+      <origin>0 0</origin>
+      <logoPos>-1 0.02</logoPos>
+    </carousel>
+    <image name="logo">
+      <path>./../../art/logos/${system.theme}-w.svg</path>
+      <reflexion>0.16 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+    </image>
+    <image name="logo" region="us">
+      <path>./../../art/logos/us/${system.theme}.svg</path>
+      <path>./../logos/us/${system.theme}-w.svg</path>
+    </image>
+    <image name="logo" region="jp">
+      <path>./../../art/logos/jp/${system.theme}.svg</path>
+      <path>./../../art/logos/jp/${system.theme}-w.svg</path>
+    </image>
+
+    <text name="systemInfo">
+      <pos>0 0.66</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>1</glowSize>
+      <reflexion>0.20 0.0</reflexion>
+    </text>
+    <image name="carousel-inner" extra="true">
+      <visible>false</visible>
+    </image>
+    <image name="carousel-shadow" extra="true">
+      <visible>false</visible>
+    </image>
+  </view>
+</theme>

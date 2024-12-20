@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+2024 : Mod by THE MINI CAKE TV HYPERTOCERA AI
+https://www.youtube.com/c/TheMiniCakeTV 
+ 
+Theme: es-theme-carbon
+author: Fabrice CARUSO
+license: creative commons CC-BY-NC-SA
+originally based on: "Carbon" by Eric Hettervik (Rookervik)
+originally based on: "simple" by nils bonenberger
+-->
+<theme defaultView="Icons">
+  <formatVersion>7</formatVersion>
+  <customView name="Boxes" inherits="grid" displayName="${basicGridName}">
+    <imagegrid name="gamegrid">
+      <autoLayout>6 2</autoLayout>
+      <autoLayout verticalScreen="true">2 2</autoLayout>
+      <autoLayoutSelectedZoom>1.08</autoLayoutSelectedZoom>
+    </imagegrid>
+    <image name="gridtile.image">
+      <shader>
+        <path>:/shaders/border.glsl</path>
+        <borderSize>0</borderSize>
+        <outerShadowSize>0</outerShadowSize>
+        <innerShadowSize>0</innerShadowSize>
+        <cornerRadius>0.016</cornerRadius>
+      </shader>
+    </image>
+    <text name="gridtile">
+      <visible>false</visible>
+    </text>
+    <text name="gridtile:selected">
+      <visible>false</visible>
+    </text>
+    <image name="gridtile.favorite">
+      <path>./art/favorite.png</path>
+      <pos>0.91 0.09</pos>
+      <maxSize>0.14 0.14</maxSize>
+      <origin>0.5 0.5</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF00B0</color>
+    </image>
+	<image name="char" extra="true">
+		<pos>0.050 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/03.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+	 
+	   	<image name="char2" extra="true">
+		<pos>0.740 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/05.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+	 
+	 	   	<image name="char3" extra="true">
+		<pos>0.190 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/04.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+	 
+	 	 	   	<image name="char4" extra="true">
+		<pos>0.615 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/09.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+	 
+	 	 	   	<image name="char5" extra="true">
+		<pos>0.300 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/02.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+
+	 	 	   	<image name="char6" extra="true">
+		<pos>0.850 0.017</pos>
+		<maxSize>0.20 0.14</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/char/06.png</path>
+		<zIndex>999</zIndex>
+	 </image>
+	 	 	  	  <image name="char7" extra="true">
+		<pos>0.955 0.700</pos>
+		<maxSize>0.06 0.06</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="y" from="0.001" begin="0" duration="1000" mode="easeOut"/>
+         </storyboard> 
+		<path>./art/icons/TMCTV.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+  </customView>
+</theme>

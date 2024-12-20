@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Polski -->
+  <variables lang="pl">
+    <dateFormat>%d.%m.%Y</dateFormat>
+    <!-- Typowe widoki -->
+    <gameCarouselViewName>Karuzela</gameCarouselViewName> <!-- NEED TRANSLATION -->
+    <basicGridName>Siatka</basicGridName>
+    <carouselViewName>Karuzela pudełek</carouselViewName>
+    <tilesViewName>Miniatury</tilesViewName>
+    <iconsViewName>Ikony</iconsViewName>
+    <contentViewName>Treść</contentViewName>
+    <!-- Zestawy kolorów -->
+    <subset.colorset>Schemat kolorów</subset.colorset>
+    <blue>Niebieski</blue>
+    <red>Czerwony</red>
+    <green>Zielony</green>
+    <cyan>Cyjan</cyan>
+    <yellow>Żółty</yellow>
+    <violet>Fioletowy</violet>
+    <orange>Pomarańczowy</orange>
+    <gray>Szary</gray>
+    <!-- Region -->
+    <subset.region>Region</subset.region>
+    <!-- Opcja rozszerzonych informacji systemowych -->
+    <systemViewExInfos>Rozszerzone informacje o systemie</systemViewExInfos>
+    <yes>Tak</yes>
+    <no>Nie</no>
+    <!-- Opcje ekranu -->
+    <systemViewName>Widok systemu</systemViewName>
+    <systemview.darkened>Przyciemniony</systemview.darkened>
+    <systemview.gridName>Siatka obrazów</systemview.gridName>
+    <systemview.horizontal>Poziomy</systemview.horizontal>
+    <systemview.legacy>Starsza wersja</systemview.legacy>
+    <systemview.transparent>Przejrzysty</systemview.transparent>
+    <systemview.simple>Prosty</systemview.simple>
+    <systemview.vertical>Pionowy</systemview.vertical>
+    <systemview.wheel>Karuzela</systemview.wheel>
+    <systemview.textlist>Lista tekstowa</systemview.textlist>
+    <!-- Opcja tła widoku systemu -->
+    <systemBackgroundName>Tło</systemBackgroundName>
+    <!-- zmień domyślne dla małych ekranów -->
+    <systembackground.consoles>Gry wideo</systembackground.consoles>
+    <systembackground.miniconsoles>Mini gry wideo</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Kontrolery Carbon</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Starsza wersja</systembackground.carbonlegacy>
+    <systembackground.simple>Proste</systembackground.simple>
+    <systembackground.randomvideo>Losowe wideo</systembackground.randomvideo>
+    <systembackground.randomfanart>Losowy fanart</systembackground.randomfanart>
+    <systembackground.randomimage>Losowy obraz</systembackground.randomimage>
+    <systembackground.randombox>Losowe pudełko gry</systembackground.randombox>
+    <systembackground.minirandomimage>Losowy mini obraz gry</systembackground.minirandomimage>
+    <systembackground.minirandombox>Losowe mini pudełko gry</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Losowe mini wideo</systembackground.minirandomvideo>
+    <animatedBackground>Animacje</animatedBackground>
+    <animatedCovers>Losowe pudełka</animatedCovers>
+    <!-- Naprawa rozmiaru obrazu kontrolera -->
+    <systemview.simple>Prosty</systemview.simple>
+    <systemview.vertical>Pionowy</systemview.vertical>
+    <systemview.wheel>Karuzela</systemview.wheel>
+    <!-- Naprawa dla Starszej wersji w opcjach Widoku systemu: kolory systemInfo muszą zostać przywrócone po zastosowaniu podzbioru systembackground -->
+    <systemview.legacy>Starsza wersja</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Efekty rozmycia</subset.blurfx>
+    <!-- Opcje pomocy -->
+    <helpSubsetName>Ikony pomocy</helpSubsetName>
+    <helpbuttons>Przyciski pomocy</helpbuttons>
+    <xboxbuttons>Przyciski Xbox'a</xboxbuttons>
+    <psxbuttons>Przyciski PlayStation</psxbuttons>
+    <colored>Kolorowo</colored>
+    <!-- Opcje ekranu -->
+    <subset.shader>Filtry</subset.shader>
+    <none>Brak</none>
+    <scanlines>Linie skanowania</scanlines>
+    <crt>TV kineskopowy</crt>
+    <!-- dodaj pasek informacji o grze -->
+    <gameBar>Pasek informacji o grze</gameBar>
+    <!-- Układ dla małych ekranów -->
+    <optimizesmallscreensSubsetName>Optymalizuj dla małych ekranów</optimizesmallscreensSubsetName>
+    <!-- Opcje widoku siatki -->
+    <videoboxesSubsetName>Pokaż wideo w trybie pudełkowym</videoboxesSubsetName>
+    <zoomboxesSubsetName>Powiększ pudełka</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Orientacja</orientationSubsetName>
+    <pionowo>Pionowa</pionowo>
+    <poziomo>Pozioma</poziomo>
+    <hideselectionSubsetName>Ukryj wybór</hideselectionSubsetName>
+    <previewBarSubsetName>Panel podglądu</previewBarSubsetName>
+    <animatedInfobar>Animacje na pasku informacyjnym</animatedInfobar>
+    <!-- Opcje widoku miniatur -->
+    <glowSubsetName>Wybór z aureolą</glowSubsetName>
+    <roundBorderSubsetName>Okrągłe ramki</roundBorderSubsetName>
+    <blinkBorderSubsetName>Migające ramki</blinkBorderSubsetName>
+    <videosSubsetName>Wideo</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Miniatury</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Źródło obrazu karuzeli</gamecarouseltype>
+    <marquee>Marquee</marquee>
+    <image>Obraz</image>
+    <text>Tekst</text>
+    <thumbnail>Miniatura</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Kontekst</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>Animacje przejścia</animationsSubsetName>
+  </variables>  
+</theme>

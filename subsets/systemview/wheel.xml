@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <feature supported="manufacturer">
+    <view name="system">
+      <text name="manufacturerName" extra="static">
+        <pos>0.029 0.067</pos>
+        <alignment>right</alignment>
+      </text>
+      <text name="fullName" extra="true">
+        <pos>0.03 0.15</pos>
+        <alignment>right</alignment>
+      </text>
+      <text name="releaseYyear" extra="true">
+        <pos>0.03 0.187</pos>
+        <alignment>right</alignment>
+      </text>
+    </view>
+  </feature>
+  <view name="system">
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../art/logos/${system.theme}-w.svg</path>
+    </image>
+    <carousel name="systemcarousel">
+      <type>vertical_wheel</type>
+      <pos>0 -0.25</pos>
+      <size>0.34 1.45</size>
+      <origin>0 0</origin>
+      <color>00000000</color>
+      <logoScale>2</logoScale>
+      <logoSize>0.15 0.12</logoSize>
+      <logoRotation>14</logoRotation>
+      <logoRotationOrigin>-2.9 0.2</logoRotationOrigin>
+      <logoAlignment>center</logoAlignment>
+      <maxLogoCount>5</maxLogoCount>
+      <systemInfoDelay>0.1</systemInfoDelay>
+      <zIndex>13</zIndex>
+      <itemTemplate>
+        <container>
+          <!-- Redefines how the carousel logo is rendered. Here we add a drop shadow to the logo -->
+          <image name="logoDropShadow" pos="0.5" origin="0.5" maxSize="1" linearSmooth="true">
+            <path>{system:logo}</path>
+            <padding>4 4 -4 -4</padding>
+            <color>00000050</color>
+            <!-- <shader path=":/shaders/blur.glsl" blur="3"/> -->
+            <zIndex>1</zIndex>
+          </image>
+          <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
+            <path>{system:logo}</path>
+            <zIndex>2</zIndex>
+          </image>
+          <text name="substitutionText" color="white" alignment="center" multiLine="true">
+            <visible>!exists({system:logo})</visible>
+            <text>{system:fullName}</text>
+            <fontSize>0.06</fontSize>
+            <fontPath>./../art/fonts/good times rg.otf</fontPath>
+            <forceUppercase>false</forceUppercase>
+            <color>white</color>
+            <glowColor>00000010</glowColor>
+            <glowSize>3</glowSize>
+          </text>
+          <storyboard event="activate">
+            <animation property="opacity" to="1" duration="150" mode="Linear"/>
+          </storyboard>
+          <storyboard event="scroll">
+            <animation property="opacity" to="0.6" duration="150" mode="Linear"/>
+            <animation property="opacity" to="0" begin="1000" duration="250" mode="Linear"/>
+          </storyboard>
+          <storyboard event="deactivate">
+            <animation property="opacity" to="0.6" duration="150" mode="Linear"/>
+            <animation property="opacity" to="0" begin="1000" duration="250" mode="Linear"/>
+          </storyboard>
+        </container>
+      </itemTemplate>
+    </carousel>
+    <image name="darkwheel" extra="static" tinyScreen="false">
+      <tile>false</tile>
+      <pos>0.22 0.25</pos>
+      <size>0.43 0.36</size>
+      <origin>0.5 0.5</origin>
+      <path>./../darkwheel.png</path>
+      <zIndex>12</zIndex>
+    </image>
+    <text name="systemInfo">
+      <pos>0.175 0.67</pos>
+      <size>1 0.25</size>
+      <pos>0.05 0.67</pos>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.20 0.0</reflexion>
+    </text>
+    <image name="CenterFade" extra="true" tinyScreen="false">
+      <tile>false</tile>
+      <size>0.40 1</size>
+      <pos>0.2 1</pos>
+      <origin>1 1</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>11</zIndex>
+    </image>
+		  	  <image name="char" extra="true">
+		<pos>0.600 0.640</pos>
+		<maxSize>0.30 0.30</maxSize>
+		<color>ffffff</color>
+         <storyboard> 
+         <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
+         </storyboard> 
+		<path>./../../art/char/char.m3u</path>
+		<zIndex>999</zIndex>
+	  </image>
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+      <pos>0.675 0.40</pos>
+      <maxSize>0.4 0.5</maxSize>
+    </image>
+  </view>
+  <feature supported="manufacturer">
+    <view name="system">
+      <text name="systemInfoEx" extra="true">
+        <alignment>right</alignment>
+      </text>
+    </view>
+  </feature>
+</theme>

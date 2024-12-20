@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Catalan -->
+  <variables lang="ca">
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <!-- Common views / Gamelist view -->
+    <gameCarouselViewName>Carrusel</gameCarouselViewName>
+    <basicGridName>Quadrícula</basicGridName>
+    <carouselViewName>Carrusel de caixes</carouselViewName>
+    <tilesViewName>Miniatures</tilesViewName>
+    <iconsViewName>Icones</iconsViewName>
+    <contentViewName>Contingut</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>Esquema de colors</subset.colorset>
+    <blue>Blau</blue>
+    <red>Vermell</red>
+    <green>Verd</green>
+    <cyan>Cian</cyan>
+    <yellow>Groc</yellow>
+    <violet>Violeta</violet>
+    <orange>Taronja</orange>
+    <gray>Gris</gray>
+    <!-- Region -->
+    <subset.region>Regió</subset.region>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>Informació del sistema millorada</systemViewExInfos>
+    <yes>Sí</yes>
+    <no>No</no>
+    <!-- Subset options for screen / System view -->
+    <systemViewName>Vista del sistema</systemViewName>
+    <systemview.darkened>Enfosquit</systemview.darkened>
+    <systemview.gridName>Quadrícula d'imatges</systemview.gridName>
+    <systemview.horizontal>Horitzontal</systemview.horizontal>
+    <systemview.legacy>Llegat</systemview.legacy>
+    <systemview.transparent>Transparent</systemview.transparent>
+    <systemview.simple>Simple</systemview.simple>
+    <systemview.vertical>Vertical</systemview.vertical>
+    <systemview.wheel>Carrusel</systemview.wheel>
+    <systemview.textlist>Llista de text</systemview.textlist>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>Fons</systemBackgroundName>
+    <!-- change default for small screens -->
+    <systembackground.consoles>Videojocs</systembackground.consoles>
+    <systembackground.miniconsoles>Mini videojocs</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Controls de carboni</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Llegat</systembackground.carbonlegacy>
+    <systembackground.simple>Simple</systembackground.simple>
+    <systembackground.randomvideo>Vídeo aleatori</systembackground.randomvideo>
+    <systembackground.randomfanart>Fanart aleatori</systembackground.randomfanart>
+    <systembackground.randomimage>Imatge aleatòria</systembackground.randomimage>
+    <systembackground.randombox>Caixa de joc aleatori</systembackground.randombox>
+    <systembackground.minirandomimage>Mini imatge aleatòria</systembackground.minirandomimage>
+    <systembackground.minirandombox>Mini caixa de jocs aleatoris</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Mini vídeo aleatori</systembackground.minirandomvideo>
+    <animatedBackground>Animacions de fons</animatedBackground>
+    <animatedCovers>Caixes aleatòries</animatedCovers>
+    <!-- Fix for controller image size -->
+    <systemview.simple>senzill</systemview.simple>
+    <systemview.vertical>vertical</systemview.vertical>
+    <systemview.wheel>carrusel</systemview.wheel>
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>llegat</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Efectes de desenfocament</subset.blurfx>
+    <!-- Subset options for help -->
+    <helpSubsetName>Icones d'ajuda</helpSubsetName>
+    <helpbuttons>Posició dels botons</helpbuttons>
+    <xboxbuttons>Botons de Xbox</xboxbuttons>
+    <psxbuttons>Botons de PlayStation</psxbuttons>
+    <colored>Colorit</colored>
+    <!-- Subset options for screen / Filters -->
+    <subset.shader>Filtres</subset.shader>
+    <none>Cap</none>
+    <scanlines>Línies d'escaneig</scanlines>
+    <crt>Tub de televisió</crt>
+    <!-- add game info bar -->
+    <gameBar>Barra d'informació del joc</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>Optimització per a pantalles petites</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>Mostra el vídeo en mode caixa</videoboxesSubsetName>
+    <zoomboxesSubsetName>Quadres de zoom</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Orientació</orientationSubsetName>
+    <vertical>Vertical</vertical>
+    <horizontal>Horitzontal</horizontal>
+    <hideselectionSubsetName>Amagar la selecció</hideselectionSubsetName>
+    <previewBarSubsetName>Panell de vista prèvia</previewBarSubsetName>
+    <animatedInfobar>Animacions de la barra d'informació</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>Selecció amb halo</glowSubsetName>
+    <roundBorderSubsetName>Vores rodones</roundBorderSubsetName>
+    <blinkBorderSubsetName>Vores parpellejants</blinkBorderSubsetName>
+    <videosSubsetName>Vídeos</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Miniatures</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Font de la imatge de Carousel</gamecarouseltype>
+    <marquee>Carpa</marquee>
+    <image>Imatge</image>
+    <text>Text</text>
+    <thumbnail>Miniatura</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Theme Contentback</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>Animacions de transició</animationsSubsetName>
+  </variables>  
+</theme>

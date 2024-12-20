@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- French -->
+  <variables lang="fr">
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <!-- Common views / Gamelist view -->
+    <gameCarouselViewName>Carrousel</gameCarouselViewName>
+    <basicGridName>Boîtes</basicGridName>
+    <carouselViewName>Carrousel de boîtes</carouselViewName>
+    <tilesViewName>Vignettes</tilesViewName>
+    <iconsViewName>Icônes</iconsViewName>
+    <contentViewName>Contenu</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>Jeux de couleurs</subset.colorset>
+    <blue>Bleu</blue>
+    <red>Rouge</red>
+    <green>Vert</green>
+    <cyan>Cyan</cyan>
+    <yellow>Jaune</yellow>
+    <violet>Violet</violet>
+    <orange>Orange</orange>
+    <gray>Gris</gray>
+        <!-- Region -->
+        <subset.region>Région</subset.region>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>Informations système améliorées</systemViewExInfos>
+    <yes>Oui</yes>
+    <no>Non</no>
+    <!-- Subset options for screen / System view -->
+    <systemViewName>Vue système</systemViewName>
+    <systemview.darkened>Sombre</systemview.darkened>
+    <systemview.gridName>Grille d'images</systemview.gridName>
+    <systemview.horizontal>Horizontal</systemview.horizontal>
+    <systemview.legacy>Legacy</systemview.legacy>
+    <systemview.transparent>Transparent</systemview.transparent>
+    <systemview.simple>Simple</systemview.simple>
+    <systemview.vertical>Vertical</systemview.vertical>
+    <systemview.wheel>Carrousel</systemview.wheel>
+    <systemview.textlist>Liste de textes</systemview.textlist>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>Arrière-plan</systemBackgroundName>
+    <!-- change default for small screens -->
+    <systembackground.consoles>Consoles</systembackground.consoles>
+    <systembackground.miniconsoles>Mini consoles</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Contrôleurs Carbon</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Legacy</systembackground.carbonlegacy>
+    <systembackground.simple>Simple</systembackground.simple>
+    <systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo>
+    <systembackground.randomfanart>Fanart aléatoire</systembackground.randomfanart>
+    <systembackground.randomimage>Image aléatoire</systembackground.randomimage>
+    <systembackground.randombox>Boîte aléatoire</systembackground.randombox>
+    <systembackground.minirandomimage>Mini image aléatoire</systembackground.minirandomimage>
+    <systembackground.minirandombox>Mini boîte de jeu aléatoire</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Mini vidéo aléatoire</systembackground.minirandomvideo>
+    <animatedBackground>Animation du fond</animatedBackground>
+    <animatedCovers>Boîtes aléatoires</animatedCovers>
+    <!-- Fix for controller image size -->
+    <systemview.simple>simple</systemview.simple>
+    <systemview.vertical>vertical</systemview.vertical>
+    <systemview.wheel>carrousel</systemview.wheel>
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>legacy</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Effets de flou</subset.blurfx>
+      <!-- Subset options for help -->
+    <helpSubsetName>Icônes d'aide</helpSubsetName>
+    <helpbuttons>Position des boutons</helpbuttons>
+    <xboxbuttons>Boutons de la Xbox</xboxbuttons>
+    <psxbuttons>Boutons de la PlayStation</psxbuttons>
+    <colored>Colorés</colored>
+      <!-- Subset options for screen / Filters -->
+    <subset.shader>Effets TV</subset.shader>
+    <none>Aucun</none>
+    <scanlines>Scanlines</scanlines>
+    <crt>CRT</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Thème</system.theme> -->
+    <!-- add game info bar -->
+    <gameBar>Barre d'information des jeux</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>Optimiser pour les petits écrans</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>Afficher la video en mode boites</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoomer les boites</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Orientation</orientationSubsetName>
+    <vertical>Vertical</vertical>
+    <horizontal>Horizontal</horizontal>
+    <hideselectionSubsetName>Masquer la sélection</hideselectionSubsetName>
+    <previewBarSubsetName>Volet aperçu</previewBarSubsetName>
+    <animatedInfobar>Animation du volet aperçu</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>Sélection en Halo</glowSubsetName>
+    <roundBorderSubsetName>Bords arrondis</roundBorderSubsetName>
+    <blinkBorderSubsetName>Bords clignotants</blinkBorderSubsetName>
+    <videosSubsetName>Vidéos</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Vignettes</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Source d'images du carrousel</gamecarouseltype>
+    <marquee>Marquee</marquee>
+    <image>Image</image>
+    <text>Texte</text>
+    <thumbnail>Miniature</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Contexte du contenu</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>Animations de transition</animationsSubsetName>
+  </variables>  
+</theme>

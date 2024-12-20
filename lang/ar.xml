@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Arabic -->
+  <variables lang="ar">
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <!-- Common views / Gamelist view -->
+    <gameCarouselViewName>استدارة الإطار</gameCarouselViewName>
+    <basicGridName>شبكة</basicGridName>
+    <carouselViewName>مستدير</carouselViewName>
+    <tilesViewName>الصورة المصغرة</tilesViewName>
+    <iconsViewName>أيقونات</iconsViewName>
+    <contentViewName>Content</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>نظام الألوان</subset.colorset>
+    <blue>أزرق</blue>
+    <red>أحمر</red>
+    <green>أخضر</green>
+    <cyan>سيانو</cyan>
+    <yellow>أصفر</yellow>
+    <violet>فيوليتا</violet><!-- I do not know -->
+    <orange>برتقالي</orange>
+    <gray>رمادي</gray>
+    <!-- Region -->
+    <subset.region>منطقة</subset.region>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>استورد معلومات النظام</systemViewExInfos>
+    <yes>نعم</yes>
+    <no>لا</no>
+    <!-- Subset options for screen / System view -->
+    <systemViewName>نظام العرض</systemViewName>
+    <systemview.darkened>مظلمة</systemview.darkened> <!-- don't sure --> 
+    <systemview.gridName>Image Grid</systemview.gridName>
+    <systemview.horizontal>أفقي</systemview.horizontal>
+    <systemview.legacy>إرث</systemview.legacy>         <!-- don't sure -->
+    <systemview.transparent>الشفافية</systemview.transparent>
+    <systemview.simple>البسطاء</systemview.simple>  <!-- don't sure -->
+    <systemview.vertical>رَأسِيّ</systemview.vertical>
+    <systemview.wheel>مستدير</systemview.wheel>
+    <systemview.textlist>Text list</systemview.textlist>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>الخلفية</systemBackgroundName>
+    <!-- change default for small screens -->
+    <systembackground.consoles>ألعاب الفيديو</systembackground.consoles>
+    <systembackground.miniconsoles>ألعاب الفيديو المصغرة</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>متحكمات الكربون</systembackground.carboncontrollers> <!-- don't sure -->
+    <systembackground.carbonlegacy>إرث</systembackground.carbonlegacy> <!-- don't sure -->
+    <systembackground.simple>البسطاء</systembackground.simple><!-- don't sure -->
+    <systembackground.randomvideo>فيديو عشوائي</systembackground.randomvideo>
+    <systembackground.randomfanart>فن هواة عشوائي</systembackground.randomfanart>
+    <systembackground.randomimage>صورة عشوائية</systembackground.randomimage>
+    <systembackground.randombox>صندوق لعبة عشوائي</systembackground.randombox>
+    <systembackground.minirandomimage>صورة لعبة مصغرة عشوائية</systembackground.minirandomimage>
+    <systembackground.minirandombox>صندوق ألعاب مصغر عشوائي</systembackground.minirandombox>
+    <systembackground.minirandomvideo>فيديو مصغر عشوائي</systembackground.minirandomvideo>
+    <animatedBackground>الرسوم المتحركة في الخلفية</animatedBackground>
+    <animatedCovers>مربعات عشوائية</animatedCovers>
+    <!-- Fix for controller image size -->
+    <systemview.simple>البسطاء</systemview.simple><!-- don't sure -->
+    <systemview.vertical>رَأسِيّ</systemview.vertical>
+    <systemview.wheel>مستدير</systemview.wheel> <!-- don't sure -->
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>إرث</systemview.legacy> <!-- don't sure -->
+     <!-- Subset options for blur effects -->
+     <subset.blurfx>Blur Effects</subset.blurfx>
+      <!-- Subset options for help -->
+    <helpSubsetName>أيقونات المساعدة</helpSubsetName>
+    <helpbuttons> موقع الزر</helpbuttons>
+    <xboxbuttons>أزرار Xbox</xboxbuttons>
+    <psxbuttons>أزرار PlayStation</psxbuttons>
+    <colored>زاهى الألوان</colored>
+    <!-- Subset options for screen-->
+    <subset.shader>المرشحات</subset.shader>
+    <none>بدون</none>
+    <scanlines>فحص السطر</scanlines>
+    <crt>Tube تلفاز</crt>
+    <!-- add game info bar -->
+    <gameBar>شريط معلومات اللعبة</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>التحسين للشاشات الصغيرة</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>عرض الفيديو في وضع الصندوق</videoboxesSubsetName>
+    <zoomboxesSubsetName>مربعات التكبير</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>الاتجاه</orientationSubsetName>
+    <vertical>رَأسِيّ</vertical>
+    <horizontal>أفقي</horizontal>
+    <hideselectionSubsetName>اختيار المخفي</hideselectionSubsetName>
+    <previewBarSubsetName>لوحة المعاينة</previewBarSubsetName>
+    <animatedInfobar> حركة شريط المعلومات</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>الإختيار بواسطةهالو</glowSubsetName>
+    <roundBorderSubsetName>حواف مستديرة</roundBorderSubsetName>
+    <blinkBorderSubsetName>وميض الحواف</blinkBorderSubsetName>
+    <videosSubsetName> فيديوهات</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>صورة مصغرة</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>مصدر الصورة للعرض الدائري</gamecarouseltype>
+    <marquee>ماركيز</marquee>
+    <image>صورة</image>
+    <text>نص</text>
+    <thumbnail>مينياتورا</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Theme Contentback</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>الانتقالات</animationsSubsetName>
+  </variables>  
+</theme>

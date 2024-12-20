@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Dutch -->
+  <variables lang="nl">
+    <dateFormat>%d-%m-%Y</dateFormat>
+    <!-- Common views / Gamelist view -->
+    <gameCarouselViewName>Carrousel</gameCarouselViewName> <!-- NEED REVIEW -->
+    <basicGridName>Rooster</basicGridName>
+    <carouselViewName>Carrousel van dozen</carouselViewName>
+    <tilesViewName>Miniaturen</tilesViewName>
+    <iconsViewName>Pictogrammen</iconsViewName>
+    <contentViewName>Inhoud</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>Kleurenschema</subset.colorset>
+    <blue>Blauw</blue>
+    <red>Rood</red>
+    <green>Groen</green>
+    <cyan>Cyaan</cyan>
+    <yellow>Geel</yellow>
+    <violet>Violet</violet>
+    <orange>Oranje</orange>
+    <gray>Grijs</gray>
+    <!-- Region -->
+    <subset.region>Regio</subset.region>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>Verbeterde systeeminformatie</systemViewExInfos>
+    <yes>Ja</yes>
+    <no>Nee</no>
+    <!-- Subset options for screen / System view -->
+    <systemViewName>Visualisatie systeem</systemViewName>
+    <systemview.darkened>Gearceerd</systemview.darkened>
+    <systemview.gridName>Afbeelding raster</systemview.gridName>
+    <systemview.horizontal>Horizontaal</systemview.horizontal>
+    <systemview.legacy>Bestaand</systemview.legacy>
+    <systemview.transparent>Transparant</systemview.transparent>
+    <systemview.simple>Gewoon</systemview.simple>
+    <systemview.vertical>Verticaal</systemview.vertical>
+    <systemview.wheel>Carrousel</systemview.wheel>
+    <systemview.textlist>Tekstlijst</systemview.textlist>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>Achtergrond</systemBackgroundName>
+    <!-- change default for small screens -->
+    <systembackground.consoles>Video spelletjes</systembackground.consoles>
+    <systembackground.miniconsoles>Minivideospelletjes</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Bediening op koolstof</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Oude</systembackground.carbonlegacy>
+    <systembackground.simple>Eenvoudige</systembackground.simple>
+    <systembackground.randomvideo>Willekeurige video</systembackground.randomvideo>
+    <systembackground.randomfanart>Willekeurige fanart</systembackground.randomfanart>
+    <systembackground.randomimage>Willekeurige afbeelding</systembackground.randomimage>
+    <systembackground.randombox>Willekeurige speldoos</systembackground.randombox>
+    <systembackground.minirandomimage>Mini willekeurige afbeelding</systembackground.minirandomimage>
+    <systembackground.minirandombox>Mini willekeurige spelletjesdoos</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Mini willekeurige video</systembackground.minirandomvideo>
+    <animatedBackground>Achtergrond animaties</animatedBackground>
+    <animatedCovers>Willekeurige dozen</animatedCovers>
+    <!-- Fix for controller image size -->
+    <systemview.simple>eenvoudig</systemview.simple>
+    <systemview.vertical>verticaal</systemview.vertical>
+    <systemview.wheel>carrousel</systemview.wheel>
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>oude</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Vervagingseffecten</subset.blurfx>
+    <!-- Subset options for help -->
+    <helpSubsetName>Help-pictogrammen</helpSubsetName>
+    <helpbuttons>Positie van knoppen</helpbuttons>
+    <xboxbuttons>Xbox-knoppen</xboxbuttons>
+    <psxbuttons>PlayStation-knoppen</psxbuttons>
+    <colored>Kleur</colored>
+    <!-- Subset options for screen / Filters -->
+    <subset.shader>Filters</subset.shader>
+    <none>Geen</none>
+    <scanlines>Scanlijnen</scanlines>
+    <crt>Buis-tv</crt>
+    <!-- add game info bar -->
+    <gameBar>Informatiebalk spel</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>Optimaliseren voor kleine schermen</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>Video weergeven in boxmodus</videoboxesSubsetName>
+    <zoomboxesSubsetName>Boxen zoomen</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Oriëntatie</orientationSubsetName>
+    <vertical>Verticaal</vertical>
+    <horizontal>Horizontaal</horizontal>
+    <hideselectionSubsetName>Selectie verbergen</hideselectionSubsetName>
+    <previewBarSubsetName>Paneel weergeven</previewBarSubsetName>
+    <animatedInfobar>Animaties in de informatiebalk</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>Selectie met tepelhof</glowSubsetName>
+    <roundBorderSubsetName>Afgeronde randen</roundBorderSubsetName>
+    <blinkBorderSubsetName>Knipperende randen</blinkBorderSubsetName>
+    <videosSubsetName>Video's</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Miniaturen</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Carrousel-afbeeldingsbron</gamecarouseltype>
+    <marquee>Marquee</marquee>
+    <image>Afbeelding</image>
+    <text>Tekst</text>
+    <thumbnail>Miniatuurafbeelding</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Inhoud Achtergrond</contentBackground>
+    <fanart>Fanart</fanart>
+    <animationsSubsetName>Overgangsanimaties</animationsSubsetName>
+  </variables>  
+</theme>

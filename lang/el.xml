@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Grec -->
+  <variables lang="el">
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <!-- Κοινές απόψεις -->
+    <gameCarouselViewName>Καρουζέλ</gameCarouselViewName>
+    <basicGridName>Πλέγμα</basicGridName>
+    <carouselViewName>Καρουσέλ από κουτιά</carouselViewName>
+    <tilesViewName>Μικρογραφίες</tilesViewName>
+    <iconsViewName>Εικονίδια</iconsViewName>
+    <contentViewName>Περιεχόμενο</contentViewName>
+    <!-- Colorsets  -->
+    <subset.colorset>Χρωματικός συνδυασμός</subset.colorset>
+    <blue>Μπλε</blue>
+    <red>Κόκκινο</red>
+    <green>Πράσινο</green>
+    <cyan>Cyan</cyan>
+    <yellow>Κίτρινο</yellow>
+    <violet>Violet</violet>
+    <orange>Πορτοκαλί</orange>
+    <gray>Γκρι</gray>
+    <!-- Region -->
+    <subset.region>Περιοχή</subset.region>
+    <!-- Επιλογή υποσυνόλου για εκτεταμένες πληροφορίες συστήματος -->
+    <systemViewExInfos>Βελτιωμένες πληροφορίες συστήματος</systemViewExInfos>
+    <yes>Ναι</yes>
+    <no>Όχι</no> 
+    <!-- αλλαγή προεπιλογής για μικρές οθόνες -->
+    <systemViewName>Προβολή συστήματος</systemViewName>
+    <systemview.darkened>Σκουρόχρωμο</systemview.darkened>
+    <systemview.gridName>Πλέγμα εικόνας</systemview.gridName>
+    <systemview.horizontal>Οριζόντια</systemview.horizontal>
+    <systemview.legacy>Κληρονομιά</systemview.legacy>
+    <systemview.transparent>Διαφανές</systemview.transparent>
+    <systemview.simple>Απλό</systemview.simple>
+    <systemview.vertical>Κατακόρυφο</systemview.vertical>
+    <systemview.wheel>Καρουσέλ</systemview.wheel>
+    <systemview.textlist>Λίστα κειμένου</systemview.textlist>
+    <!-- Επιλογή υποσυνόλου για το φόντο προβολής συστήματος -->
+    <systemBackgroundName>Φόντο</systemBackgroundName>    
+     <!-- change default for small screens -->
+    <systembackground.consoles>Βιντεοπαιχνίδια</systembackground.consoles>
+    <systembackground.miniconsoles>Μίνι βιντεοπαιχνίδια</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Στοιχεία ελέγχου άνθρακα</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Παλαιού τύπου</systembackground.carbonlegacy>
+    <systembackground.simple>Απλό</systembackground.simple>
+    <systembackground.randomvideo>Τυχαίο βίντεο</systembackground.randomvideo>
+    <systembackground.randomfanart>τυχαία τέχνη θαυμαστών</systembackground.randomfanart>
+    <systembackground.randomimage>Τυχαία εικόνα</systembackground.randomimage>
+    <systembackground.randombox>Πλαίσιο τυχαίων παιχνιδιών</systembackground.randombox>
+    <systembackground.minirandomimage>Τυχαία μίνι εικόνα</systembackground.minirandomimage>
+    <systembackground.minirandombox>Μίνι τυχαίο κουτί παιχνιδιών</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Μίνι τυχαίο βίντεο</systembackground.minirandomvideo>
+    <animatedBackground>Κινούμενα σχέδια στο παρασκήνιο</animatedBackground>
+    <animatedCovers>Τυχαία κουτιά</animatedCovers>
+    <!-- Διόρθωση για μέγεθος εικόνας ελεγκτή -->
+    <systemview.simple>απλό</systemview.simple>
+    <systemview.vertical>κάθετο</systemview.vertical>
+    <systemview.wheel>καρουσέλ</systemview.wheel>
+    <!-- Επιλογή Fix for Legacy στο υποσύνολο systemview : τα χρώματα systemInfo πρέπει να αποκατασταθούν μετά την εφαρμογή του υποσυνόλου systembackground -->
+    <systemview.legacy>κληρονομιά</systemview.legacy>
+    <!-- Subset options for blur effects -->
+    <subset.blurfx>Εφέ θαμπώματος</subset.blurfx>
+    <!-- Επιλογές υποσυνόλου για βοήθεια -->
+    <helpSubsetName>Εικονίδια βοήθειας</helpSubsetName>
+    <helpbuttons>Θέση κουμπιών</helpbuttons>
+    <xboxbuttons>Κουμπιά Xbox</xboxbuttons>
+    <psxbuttons>Κουμπιά PlayStation</psxbuttons>
+    <colored>Έγχρωμο</colored>
+    <!-- Επιλογές υποσυνόλου για οθόνη -->
+    <subset.shader>Φίλτρα</subset.shader>
+    <none>Καμία</none>
+    <scanlines>Σαρώσεις</scanlines>
+    <crt>τηλεόραση με σωλήνα</crt>
+    <!-- προσθήκη γραμμής πληροφοριών παιχνιδιού -->
+    <gameBar>Γραμμή πληροφοριών παιχνιδιού</gameBar>
+    <!-- Διάταξη για μικρές οθόνες -->
+    <optimizesmallscreensSubsetName>Βελτιστοποίηση για μικρές οθόνες</optimizesmallscreensSubsetName>
+    <!-- Επιλογές υποσυνόλου για προβολές πλέγματος -->
+    <videoboxesSubsetName>Εμφάνιση βίντεο σε λειτουργία πλαισίου</videoboxesSubsetName>
+    <zoomboxesSubsetName>Πλαίσια ζουμ</zoomboxesSubsetName>
+    <!-- Subset options for Orientantion view -->
+    <orientationSubsetName>Προσανατολισμός</orientationSubsetName>
+    <vertical>Κάθετη</vertical>
+    <horizontal>Οριζόντια</horizontal>
+    <hideselectionSubsetName>Απόκρυψη επιλογής</hideselectionSubsetName>
+    <previewBarSubsetName>Πλαίσιο προεπισκόπησης</previewBarSubsetName>
+    <animatedInfobar>Κινούμενες εικόνες στη γραμμή πληροφοριών</animatedInfobar>
+    <!-- Επιλογές υποσυνόλου για προβολή πλακιδίων -->
+    <glowSubsetName>Επιλογή Haloed</glowSubsetName>
+    <roundBorderSubsetName>Στρογγυλά σύνορα</roundBorderSubsetName>
+    <blinkBorderSubsetName>Περίγραμμα που αναβοσβήνουν</blinkBorderSubsetName>
+    <videosSubsetName>Βίντεο</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>Μικρογραφίες</logosSubsetNamegamecarouseltype>
+    <!-- Subset options for Carousel content type -->
+    <gamecarouseltype>Πηγή εικόνας καρουζέλ</gamecarouseltype>
+    <marquee>Μαρκησία</marquee>
+    <image>Εικόνα</image>
+    <text>Κείμενο</text>
+    <thumbnail>Μικρογραφία</thumbnail>
+    <!-- Subset options for System view content background -->
+    <contentBackground>Υπόβαθρο περιεχομένου</contentBackground>
+    <fanart>φαντασία</fanart>
+    <animationsSubsetName>Κινούμενες εικόνες μετάβασης</animationsSubsetName>    
+  </variables>  
+</theme>

@@ -1,0 +1,19 @@
+BATOCERA :
+Copier la vidéo.
+A coller dans batocera/share/themes
+----------
+BATOCERA :
+Copy the video.
+Paste into batocera/share/themes
+
+
+**********************************************
+
+
+RETROBAT :
+Copier la vidéo.
+A coller dans RetroBat\emulationstation\.emulationstation\video
+-----------
+RETROBAT :
+Copy the video.
+Paste into RetroBat\emulationstation\.emulationstation\video
