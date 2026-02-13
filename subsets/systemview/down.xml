@@ -29,8 +29,8 @@
 	  
 	  
 	  	  <image name="char" extra="true">
-		<pos>0.600 0.640</pos>
-		<maxSize>0.30 0.30</maxSize>
+		<pos>0.620 0.720</pos>
+		<maxSize>0.22 0.22</maxSize>
 		<color>ffffff</color>
          <storyboard> 
          <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>

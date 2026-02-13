@@ -1,4 +1,4 @@
-2024 : Mod by THE MINI CAKE TV - AI HYPERTOCERA
+2024-2026 : Mod by THE MINI CAKE TV - AI HYPERTOCERA
 https://www.youtube.com/c/TheMiniCakeTV
 
 Theme: es-theme-carbon

@@ -92,13 +92,13 @@ originally based on: "simple" by nils bonenberger
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./../art/fonts/good times rg.otf</fontPath>
-        <fontSize>0.050</fontSize>
+        <fontSize>0.040</fontSize>
         <pos>0.029 0.037</pos>
         <size>0.942 0.28</size>
         <color>f000ff</color>      
         <zIndex>100</zIndex>
         <color>ffffff</color>
-        <glowColor>f000ff</glowColor>
+        <glowColor>000000</glowColor>
         <glowSize>2</glowSize>
 
         <fontSize tinyScreen="true">0.065</fontSize>
